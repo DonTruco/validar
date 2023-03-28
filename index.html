@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="e_index.css">
+    <title>Validar</title>
+</head>
+<body>
+    <!--<h1>Universidad Compensar</h1>-->
+    <!--Cuando el formulario acabe mandara a HOME.HTML-->
+
+    <div class="container">
+        <form class="form" action="validar.php" method="post">
+
+        <h1 class="form__title">Iniciar sesion</h1>
+
+        <div class="form__input-group">
+                <input type="text" placeholder=" " name="usuario" class="form__input" required>
+                <label class="form__label">Usuario</label>
+        </div>
+
+
+        <div class="form__input-group">
+                <input type="password" placeholder=" " name="password" class="form__input" required>
+                <label class="form__label">Contraseña</label>
+        </div>
+
+      <button type="submit" class="form__button">Entrar</button>
+      <p class="form__info">Aun no te registras? <a href="registro.php">Registrate aquí</a></p>
+      <div class="form__bg"></div>
+      
+    </form>
+    
+</div>
+</body>
+</html>
